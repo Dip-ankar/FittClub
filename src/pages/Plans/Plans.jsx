@@ -33,6 +33,7 @@ const cardVariant = {
 const Plans = () => {
   return (
     <motion.div
+      id="plans"
       className="w-full px-4 py-16 text-white"
       initial="hidden"
       whileInView="visible"
